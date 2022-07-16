@@ -10,6 +10,8 @@ Had To Learn alot about Flebox, the box model  and various ways to Style Element
 
 Also Learned alot about coding standards and indenting child elements, Was worth diving into the deep end to see my project come to life.
 
+Also Learnt about GIT, version control and Git Branches
+
 <hr>
 
 **Potential Future Features**
@@ -19,6 +21,6 @@ Adding A contact Form to allow customers to contact ITPS
 
 Making the site responsive
 
-Improve site Performance as current speed rating is 67%
+Improve site Performance as  original ITPS Site  speed rating is 67%
 
 
