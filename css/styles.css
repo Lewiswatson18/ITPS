@@ -5,11 +5,8 @@
 
 }
 
-/*Setting to padding 0 and margin 0 so that the logo is in top left hand corner */
 
-body {}
 
-/* Used Flex so that navbar displays side by side and used space between to push them as far apart as possible */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -22,7 +19,7 @@ body {}
 .itpslogo {
     width: 100%;
     height: auto;
-    margin: 1.0rem;
+    margin: 0.5rem;
 }
 
 .navbar-links ul {
@@ -31,7 +28,7 @@ body {}
     display: flex;
 }
 
-/* Used list-style:none; to get rid of dots on list */
+
 .navbar-links li {
 
     list-style: none;
@@ -44,4 +41,44 @@ body {}
     padding: 3rem;
     display: block;
     font-size: large;
+}
+
+.toggle-button {
+    position: absolute;
+    top: 0.75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 3px;
+}
+
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
 }

@@ -2,26 +2,31 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>ITPS Landing Page</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="script.js" defer></script>
+  <title> Landing Page</title>
 </head>
 
 <body>
 
-
-    <nav class="navbar">
-        <div class="itpslogo"><img src="img/ITPS.png" alt="ITPS LOGO"></div>
-        <div class="navbar-links">
-            <ul>
-                <li><a href=""> Lorem</a></li>
-                <li><a href=""> Lorem</a></li>
-                <li><a href=""> Lorem</a></li>
-            </ul>
-        </div>
-    </nav>
+  <nav class="navbar">
+    <div class="itpslogo"><img src="img/ITPS.png" alt=""></div>
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
 
 
@@ -30,5 +35,19 @@
 
 
 </body>
+
+<script>
+
+  const toggleButton = document.getElementsByClassName('toggle-button')[0]
+  const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+  toggleButton.addEventListener('click', () => {
+    navbarLinks.classList.toggle('active')
+  })
+
+
+</script>
+
+
 
 </html>
