@@ -1,20 +1,26 @@
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
 }
 
 /*Setting to padding 0 and margin 0 so that the logo is in top left hand corner */
 
-body {
-    padding: 0;
-    margin: 0;
-}
+body {}
 
 /* Used Flex so that navbar displays side by side and used space between to push them as far apart as possible */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #0080FF;
+
 }
 
-.itpslogo {}
+.itpslogo {
+    width: 100%;
+    height: auto;
+    margin: 0.5rem;
+}
+
+.navbar-links ul {}
