@@ -14,13 +14,34 @@ body {}
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #00BFFF;
+
 
 }
 
 .itpslogo {
     width: 100%;
     height: auto;
-    margin: 0.5rem;
+    margin: 1.0rem;
 }
 
-.navbar-links ul {}
+.navbar-links ul {
+    margin: 0;
+    padding: 0%;
+    display: flex;
+}
+
+/* Used list-style:none; to get rid of dots on list */
+.navbar-links li {
+
+    list-style: none;
+
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 3rem;
+    display: block;
+    font-size: large;
+}
