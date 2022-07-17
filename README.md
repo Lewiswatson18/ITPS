@@ -22,5 +22,10 @@ Adding A contact Form to allow customers to contact ITPS
 Making the site responsive
 
 Improve site Performance as  original ITPS Site  speed rating is 67%
+<hr>
+
+**Testing**
+Before moving From my UAT environment to my production the HTML and CSS has been tested via running it through a CSS/HTML Validator to make sure there are no errors before moving to my production environment.
+
 
 
