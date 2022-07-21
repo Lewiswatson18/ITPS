@@ -140,7 +140,29 @@
 
     width: 100%;
     padding: 19%;
+}
 
+.hero-text {
+    text-align: center;
+    font-size: large;
+    color: white;
+}
 
+.intro,
+h2,
+p {
+    text-align: center;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
 
+}
+
+hr {
+    margin: auto;
+    border: none;
+    border-top: 3px dotted #00BFFF;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
 }
