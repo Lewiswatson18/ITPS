@@ -177,4 +177,15 @@ hr {
         align-items: center;
     }
 
+    .intro,
+    h2,
+    p {
+        text-align: center;
+        padding: 20px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+
 }
