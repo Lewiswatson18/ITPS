@@ -159,10 +159,22 @@ p {
 }
 
 hr {
+
     margin: auto;
     border: none;
-    border-top: 3px dotted #00BFFF;
-    width: 30%;
-    justify-content: center;
-    align-items: center;
+
+
+}
+
+@media (max-width: 800px) {
+
+    hr {
+        margin: auto;
+        border: none;
+        border-top: 3px dotted #00BFFF;
+        width: 30%;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
